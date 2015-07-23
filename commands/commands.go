@@ -43,4 +43,5 @@ var Commands = []*types.Command{
 	cmdTop,
 	cmdVersion,
 	cmdWait,
+	cmdWorkflow,
 }
