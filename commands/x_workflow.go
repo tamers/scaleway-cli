@@ -6,8 +6,9 @@ package commands
 
 import (
 	"fmt"
-	"log"
 	"os"
+
+	log "github.com/scaleway/scaleway-cli/vendor/github.com/Sirupsen/logrus"
 
 	types "github.com/scaleway/scaleway-cli/commands/types"
 )
@@ -37,12 +38,13 @@ func WorkflowCreateImageFromS3(cmd *types.Command, args []string) {
 		cmd.PrintUsage()
 	}
 
+	imageName := "new-image"
 	log.Debugf("URL of the tarball: %s", args[0])
-	log.Debugf("Target name: %s", "new-image")
-	server, err := sandbox.call("create", "--bootscript=rescue", "--volume=50G", "--name=image-writer", "1GB")
+	log.Debugf("Target name: %s", imageName)
+	/*server, err := sandbox.call("create", "--bootscript=rescue", "--volume=50G", "--name=image-writer", "1GB")
 	if err != nil {
 		log.Fatal(err)
-	}
+	}*/
 
 }
 
