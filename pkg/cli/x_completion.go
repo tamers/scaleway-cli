@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	utils "github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	utils "github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 var cmdCompletion = &Command{

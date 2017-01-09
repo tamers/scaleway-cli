@@ -14,8 +14,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/docker/pkg/archive"
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 // CpArgs are arguments passed to `RunCp`

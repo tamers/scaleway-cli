@@ -7,7 +7,7 @@ package cli
 import (
 	"encoding/json"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/api"
 )
 
 var cmdMarketplace = &Command{

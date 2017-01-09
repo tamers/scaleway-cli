@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/scaleway/scaleway-cli/pkg/commands"
+	"github.com/tamers/scaleway-cli/pkg/commands"
 )
 
 var cmdRun = &Command{

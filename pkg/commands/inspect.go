@@ -10,7 +10,7 @@ import (
 	"text/template"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/api"
 	"github.com/skratchdot/open-golang/open"
 )
 

@@ -13,9 +13,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/docker/go-units"
-	"github.com/scaleway/scaleway-cli/pkg/commands"
-	"github.com/scaleway/scaleway-cli/pkg/pricing"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/commands"
+	"github.com/tamers/scaleway-cli/pkg/pricing"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 var cmdBilling = &Command{

@@ -10,8 +10,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 // ExecArgs are flags for the `RunExec` function

@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/api"
 )
 
 // CreateArgs are arguments passed to `RunCreate`
@@ -52,6 +52,8 @@ func RunCreate(ctx CommandContext, args CreateArgs) error {
 		config.IP = ""
 	} else if args.IP == "none" || args.IP == "no" {
 		config.IP = ""
+	} else if args.IP == "reserved" {
+		config.IP = "reserved"
 	}
 	serverID, err := api.CreateServer(ctx.API, &config)
 	if err != nil {

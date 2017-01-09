@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/api"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

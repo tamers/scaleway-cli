@@ -15,8 +15,8 @@ import (
 	"github.com/docker/go-units"
 	"github.com/renstrom/fuzzysearch/fuzzy"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 // PsArgs are flags for the `RunPs` function

@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/scaleway/scaleway-cli/pkg/commands"
+	"github.com/tamers/scaleway-cli/pkg/commands"
 )
 
 var cmdImages = &Command{

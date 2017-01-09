@@ -6,7 +6,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/moul/http2curl"
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/api"
 )
 
 type cliLogger struct {

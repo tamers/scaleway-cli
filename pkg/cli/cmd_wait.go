@@ -4,7 +4,7 @@
 
 package cli
 
-import "github.com/scaleway/scaleway-cli/pkg/commands"
+import "github.com/tamers/scaleway-cli/pkg/commands"
 
 var cmdWait = &Command{
 	Exec:        runWait,

@@ -9,9 +9,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/config"
-	"github.com/scaleway/scaleway-cli/pkg/scwversion"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/config"
+	"github.com/tamers/scaleway-cli/pkg/scwversion"
 )
 
 var cmdUserdata = &Command{

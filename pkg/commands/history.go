@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/docker/go-units"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 // HistoryArgs are flags for the `RunHistory` function

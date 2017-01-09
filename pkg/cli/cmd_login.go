@@ -7,7 +7,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/scaleway/scaleway-cli/pkg/commands"
+	"github.com/tamers/scaleway-cli/pkg/commands"
 )
 
 var cmdLogin = &Command{

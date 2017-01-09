@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/scaleway/scaleway-cli/pkg/config"
+	"github.com/tamers/scaleway-cli/pkg/config"
 )
 
 // LogoutArgs are flags for the `RunLogout` function

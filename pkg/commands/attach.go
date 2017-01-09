@@ -4,7 +4,7 @@
 
 package commands
 
-import "github.com/scaleway/scaleway-cli/pkg/utils"
+import "github.com/tamers/scaleway-cli/pkg/utils"
 
 // AttachArgs are flags for the `RunAttach` function
 type AttachArgs struct {

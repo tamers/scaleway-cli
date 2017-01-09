@@ -8,9 +8,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/moul/anonuuid"
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/config"
-	"github.com/scaleway/scaleway-cli/pkg/scwversion"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/config"
+	"github.com/tamers/scaleway-cli/pkg/scwversion"
 )
 
 func shouldBeAnUUID(actual interface{}, expected ...interface{}) string {

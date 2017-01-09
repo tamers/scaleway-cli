@@ -17,10 +17,10 @@ import (
 	"github.com/Sirupsen/logrus"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/clilogger"
-	"github.com/scaleway/scaleway-cli/pkg/config"
-	"github.com/scaleway/scaleway-cli/pkg/scwversion"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/clilogger"
+	"github.com/tamers/scaleway-cli/pkg/config"
+	"github.com/tamers/scaleway-cli/pkg/scwversion"
 )
 
 // LoginArgs are arguments passed to `RunLogin`
@@ -252,7 +252,7 @@ func RunLogin(ctx CommandContext, args LoginArgs) error {
 	fmt.Println("")
 	fmt.Println("You are now authenticated on Scaleway.com", name)
 	fmt.Println("You can list your existing servers using `scw ps` or create a new one using `scw run ubuntu-xenial`.")
-	fmt.Println("You can get a list of all available commands using `scw -h` and get more usage examples on github.com/scaleway/scaleway-cli.")
+	fmt.Println("You can get a list of all available commands using `scw -h` and get more usage examples on github.com/tamers/scaleway-cli.")
 	fmt.Println("Happy cloud riding.")
 	return cfg.Save()
 }

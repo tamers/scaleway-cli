@@ -17,12 +17,12 @@ import (
 	flag "github.com/docker/docker/pkg/mflag"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/clilogger"
-	"github.com/scaleway/scaleway-cli/pkg/commands"
-	"github.com/scaleway/scaleway-cli/pkg/config"
-	"github.com/scaleway/scaleway-cli/pkg/scwversion"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/clilogger"
+	"github.com/tamers/scaleway-cli/pkg/commands"
+	"github.com/tamers/scaleway-cli/pkg/config"
+	"github.com/tamers/scaleway-cli/pkg/scwversion"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 // global options

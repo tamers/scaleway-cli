@@ -15,8 +15,8 @@ import (
 
 	flag "github.com/docker/docker/pkg/mflag"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/commands"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/commands"
 )
 
 // errors

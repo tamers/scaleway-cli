@@ -18,7 +18,7 @@ import (
 	"github.com/docker/docker/pkg/namesgenerator"
 	"github.com/dustin/go-humanize"
 	"github.com/moul/anonuuid"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 // ScalewayResolvedIdentifier represents a list of matching identifier for a specifier pattern
@@ -314,7 +314,10 @@ func CreateServer(api *ScalewayAPI, c *ConfigCreateServer) (string, error) {
 		return "", errors.New("You need to specify a commercial-type")
 	}
 	if c.IP != "" {
-		if anonuuid.IsUUID(c.IP) == nil {
+		if c.IP == "reserved" {
+			x, _ := api.NewIP()
+			server.PublicIP = x.IP.ID
+		} else if anonuuid.IsUUID(c.IP) == nil {
 			server.PublicIP = c.IP
 		} else {
 			ips, err := api.GetIPS()

@@ -7,8 +7,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
-	"github.com/scaleway/scaleway-cli/pkg/utils"
+	"github.com/tamers/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/utils"
 )
 
 // LogsArgs are flags for the `RunLogs` function

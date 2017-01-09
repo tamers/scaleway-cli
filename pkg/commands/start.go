@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/api"
 )
 
 // StartArgs are flags for the `RunStart` function

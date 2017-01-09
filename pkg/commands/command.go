@@ -9,7 +9,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/scaleway/scaleway-cli/pkg/api"
+	"github.com/tamers/scaleway-cli/pkg/api"
 )
 
 // Streams is used to redirects the streams
